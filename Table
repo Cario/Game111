@@ -1,0 +1,8 @@
+ Create table pokemans(
+  id int auto_increment primary key,
+  name varchar(30),
+  type varchar(30),
+  gender char(1),
+  height decimal(5,1)
+  );
+ // (Pokichu, Squortle, Bolbasore, Chalizard) 
