@@ -6,3 +6,9 @@
   height decimal(5,1)
   );
  // (Pokichu, Squortle, Bolbasore, Chalizard) 
+
+// Command "drop table" removes a table, and "if exists" does as it implies
+drop table if exists customers;
+drop table if exists Orders;
+drop table if exists customers;
+drop table if exists Shippings;
