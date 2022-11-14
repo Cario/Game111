@@ -12,3 +12,13 @@ drop table if exists customers;
 drop table if exists Orders;
 drop table if exists customers;
 drop table if exists Shippings;
+
+//The command to insert data into the table
+insert into pokemans (id, name, gender, type, height)
+values 
+(4, "Bolbasore", "M", "Grass", 90.5),
+(5, "Unknown", "N", "Normal", 1.1)
+;
+//To remove certain rows with no Id number
+delete from Pokemans
+where id is null;
